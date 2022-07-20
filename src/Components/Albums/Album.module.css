@@ -1,0 +1,25 @@
+.albums{
+  display: grid;
+  grid-gap: 22px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  margin: 1%;
+  text-align: center;
+  }
+  .album{
+    list-style-type: none;
+    max-width: 150px;
+    margin: 7px;
+    padding: 13%;
+    line-height: 30px;
+    border: solid 1px rgb(172, 172, 172);
+    text-align: center;
+    background-color: rgb(192, 192, 192);
+    cursor: pointer;
+    border-radius: 4%;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 40%), 0 7px 13px -3px rgb(0 0 0 / 30%), inset 0 -3px 0 rgb(0 0 0 / 20%);
+  }
+  
+  h1{
+    text-align:center;
+    color: gray;
+  }

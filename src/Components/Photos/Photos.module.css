@@ -1,0 +1,53 @@
+
+html{
+  background-color: #f7f7f7;
+  width: 100%;
+  align-items: center;
+}
+h1{
+  text-align: center;
+  font-size: 4rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  background-color: #f7f7f7;
+  width: 100%;
+  justify-content: center;
+}
+
+.photos_wrap {
+  display: grid;
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fill, minmax(12em, 1fr));
+  grid-gap: 20px;
+  text-align: center;
+}
+
+.btnClose{
+  font-size: 30px;
+  text-align: right;
+  margin: 10px;
+  cursor: pointer;
+  margin-left: 97%;
+
+}
+
+.photo{
+  border-radius: 8px;
+  background-color:#fff;
+  padding: 7px;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+  height: 98%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h6{
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(108, 105, 105);
+  text-transform: capitalize;
+  text-align: center;
+}
