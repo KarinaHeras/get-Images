@@ -26,7 +26,7 @@ const Photos = ({photos, photoVisibility, setPhotoVisibility, setAlbumVisibility
             return (
               <div className={styles.photo}>
                 <img  onClick={() => {handleClick(photos.id)} }  src={photo.thumbnailUrl}/>
-                 <h6>{photo.title}</h6>    
+                {/* <h6>{photo.title}</h6>     */}  
               </div>
             )
           })
